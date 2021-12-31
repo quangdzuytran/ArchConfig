@@ -1,0 +1,22 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda5 LABEL=Arch
+UUID=d562c9ca-12cf-47d2-9786-98c60adb01a4	/         	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvol=/@	0 0
+
+# /dev/sda1 LABEL=EFI
+UUID=6C17-070F      	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda5 LABEL=Arch
+UUID=d562c9ca-12cf-47d2-9786-98c60adb01a4	/home     	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvol=/@home	0 0
+
+# /dev/sda5 LABEL=Arch
+UUID=d562c9ca-12cf-47d2-9786-98c60adb01a4	/var/log  	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvol=/@var_log	0 0
+
+# /dev/sda4
+UUID=395e2b81-cf97-4201-875a-01d2ad02bd22	none      	swap      	defaults  	0 0
+
+LABEL=Personal /mnt/Personal auto nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
+LABEL=Others /mnt/Others auto nosuid,nodev,nofail,x-gvfs-show,noauto,uid=1000,gid=1000 0 0
+LABEL=Windows /mnt/Windows auto nosuid,nodev,nofail,x-gvfs-show,noauto,uid=1000,gid=1000 0 0
