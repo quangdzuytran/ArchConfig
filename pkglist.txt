@@ -113,7 +113,6 @@ texinfo
 thunderbird
 timeshift
 timeshift-autosnap
-torguard
 touchegg
 traceroute
 ttf-caladea
