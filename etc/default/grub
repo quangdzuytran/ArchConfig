@@ -1,6 +1,6 @@
 # GRUB boot loader configuration
 
-GRUB_DEFAULT="gnulinux-linux-advanced-d562c9ca-12cf-47d2-9786-98c60adb01a4"
+GRUB_DEFAULT=0
 GRUB_TIMEOUT=3
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3"
