@@ -1,3 +1,4 @@
+aic94xx-firmware
 alsa-utils
 ark
 audacious
@@ -65,6 +66,7 @@ linux-headers
 linux-lts
 linux-lts-headers
 lrzip
+lshw
 lzop
 m4
 make
@@ -80,6 +82,7 @@ noto-fonts-emoji
 noto-fonts-extra
 nvidia
 nvidia-lts
+nvidia-prime
 nvidia-settings
 nvidia-utils
 okular
@@ -99,7 +102,6 @@ powerdevil
 python-pip
 python-pyqt5
 python-reportlab
-qemu
 qt5-webkit
 rpcbind
 sane
@@ -113,14 +115,19 @@ texinfo
 thunderbird
 timeshift
 timeshift-autosnap
+torguard
 touchegg
 traceroute
 ttf-caladea
 ttf-carlito
 unrar
+upd72020x-fw
 vim
-virt-manager
+virtualbox
+virtualbox-ext-oracle
+virtualbox-guest-iso
 visual-studio-code-bin
+wd719x-firmware
 which
 wireguard-tools
 wpa_supplicant
