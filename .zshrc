@@ -29,6 +29,7 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
+alias llah="ls -lah"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
