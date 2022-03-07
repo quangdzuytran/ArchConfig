@@ -1,4 +1,5 @@
 a52dec
+aalib
 accounts-qml-module
 accountsservice
 acl
@@ -96,13 +97,11 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
-en_se
 eventviews
 exiv2
 expat
 fakeroot
 ffmpeg
-ffmpeg4.4
 fftw
 file
 filesystem
@@ -112,7 +111,6 @@ flex
 fontconfig
 foomatic-db-engine
 frameworkintegration
-freeglut
 freetype2
 fribidi
 fuse-common
@@ -131,7 +129,6 @@ gettext
 ghostscript
 giflib
 git
-glew
 glib-networking
 glib2
 glibc
@@ -142,7 +139,6 @@ gnome-keyring
 gnupg
 gnutls
 gobject-introspection-runtime
-google-chrome
 gpgme
 gpm
 gptfdisk
@@ -160,6 +156,7 @@ gsfonts
 gsm
 gst-plugins-base
 gst-plugins-base-libs
+gst-plugins-good
 gst-plugins-ugly
 gstreamer
 gtk-update-icon-cache
@@ -179,10 +176,10 @@ hwloc
 hyphen
 iana-etc
 ibus
-ibus-bamboo
 icu
 ijs
 imagemagick
+imlib2
 incidenceeditor
 iniparser
 intel-ucode
@@ -190,7 +187,6 @@ iproute2
 iptables-nft
 iputils
 iso-codes
-isw
 jansson
 jasper
 jbig2dec
@@ -311,6 +307,8 @@ lcms2
 ldb
 ldns
 less
+lib32-gcc-libs
+lib32-glibc
 libaccounts-glib
 libaccounts-qt
 libaio
@@ -327,6 +325,7 @@ libblockdev
 libbluray
 libbsd
 libbytesize
+libcaca
 libcanberra
 libcap
 libcap-ng
@@ -345,6 +344,7 @@ libdbusmenu-qt5
 libde265
 libdmtx
 libdrm
+libdv
 libdvdnav
 libdvdread
 libedit
@@ -367,6 +367,7 @@ libheif
 libibus
 libical
 libice
+libid3tag
 libidn
 libidn2
 libiec61883
@@ -375,6 +376,7 @@ libimobiledevice
 libindicator-gtk3
 libinih
 libinput
+libisl
 libjpeg-turbo
 libkdcraw
 libkdepim
@@ -438,6 +440,7 @@ libsamplerate
 libsasl
 libseccomp
 libsecret
+libshout
 libsidplay
 libsm
 libsndfile
@@ -542,11 +545,9 @@ md4c
 mdadm
 media-player-info
 mesa
-mesa-demos
 mesa-utils
 messagelib
 milou
-miniconda3
 minizip
 mkinitcpio
 mkinitcpio-busybox
@@ -554,6 +555,7 @@ mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
 mpfr
+mpg123
 mpv
 mtdev
 mtools
@@ -575,10 +577,10 @@ npth
 nspr
 nss
 nvidia
+nvidia-prime
 nvidia-utils
 obs-studio
 okular
-onlyoffice-bin
 openal
 opencl-nvidia
 opencore-amr
@@ -586,12 +588,11 @@ openjpeg2
 openmpi
 openssh
 openssl
-optimus-manager
-optimus-manager-qt
 optipng
 opus
 orc
 os-prober
+oxygen
 p11-kit
 p7zip
 pacman
@@ -742,6 +743,7 @@ rav1e
 re2
 readline
 rest
+rnnoise
 rsync
 rubberband
 run-parts
@@ -793,16 +795,14 @@ texinfo
 thin-provisioning-tools
 threadweaver
 thunderbird
-timeshift
-timeshift-autosnap
-torguard
-touchegg
+tpm2-tss
 tracker3
 tslib
 ttf-carlito
 ttf-dejavu
 ttf-hack
 ttf-liberation
+twolame
 tzdata
 uchardet
 udisks2
@@ -815,13 +815,13 @@ v4l-utils
 vid.stab
 vim
 vim-runtime
-visual-studio-code-bin
 vmaf
 volume_key
 vte-common
 vte3
 vulkan-icd-loader
 vulkan-tools
+wavpack
 wayland
 wayland-utils
 webrtc-audio-processing
@@ -865,10 +865,9 @@ xorgproto
 xvidcore
 xxhash
 xz
-yay
+youtube-dl
 zeromq
 zimg
 zlib
-zoom
 zstd
 zxing-cpp

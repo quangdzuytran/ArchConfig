@@ -1,0 +1,13 @@
+en_se
+envycontrol
+google-chrome
+ibus-bamboo
+isw
+miniconda3
+onlyoffice-bin
+timeshift
+timeshift-autosnap
+touchegg
+visual-studio-code-bin
+yay
+zoom
